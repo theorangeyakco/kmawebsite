@@ -51,6 +51,12 @@
 	margin: 2rem 8rem;
 }
 
+@media screen and (max-width: 710px) {
+	#app {
+		margin: 2rem 2rem;
+	}
+}
+
 #nav {
 	display: flex;
 	height: 5rem;
@@ -68,6 +74,15 @@ a {
 a:hover {
 	color: #999999;
 	transition: all ease 0.3s;
+}
+
+@media screen and (max-width: 411px) {
+	a {
+		margin-left: 1rem;
+	}
+	#app {
+		margin: 2rem 1rem;
+	}
 }
 
 h1 {
