@@ -2,7 +2,7 @@
 	<div id="app">
 		<div id="nav">
 			<div>
-				<h1>KM&A</h1>
+				<h1>Kumar Moorthy & Associates</h1>
 			</div>
 			<div>
 				<router-link to="/">Home</router-link>
@@ -55,18 +55,13 @@
 	margin: 2rem 8rem;
 }
 
-@media screen and (max-width: 710px) {
-	#app {
-		margin: 2rem 2rem;
-	}
-}
-
 #nav {
 	display: flex;
 	height: 5rem;
 	justify-content: space-between;
 	align-items: center;
 	font-family: "AirbnbMedium";
+	margin-bottom: 10rem;
 }
 
 a {
@@ -80,10 +75,7 @@ a:hover {
 	transition: all ease 0.3s;
 }
 
-@media screen and (max-width: 411px) {
-	a {
-		margin-left: 1rem;
-	}
+@media screen and (max-width: 940px) {
 	#app {
 		margin: 2rem 1rem;
 	}
@@ -91,6 +83,24 @@ a:hover {
 
 h1 {
 	font-size: 1.8rem;
+}
+
+@media screen and (max-width: 710px) {
+	#app {
+		margin: 2rem 2rem;
+	}
+	#nav {
+		flex-direction: column;
+	}
+	h1 {
+		text-align: center;
+		font-size: 1.3rem;
+	}
+	a {
+		margin-left: 0.5rem;
+		margin-right: 0.5rem;
+		text-align: center;
+	}
 }
 
 #nav a.router-link-exact-active {

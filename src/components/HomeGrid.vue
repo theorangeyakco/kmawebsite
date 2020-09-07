@@ -26,7 +26,6 @@ export default {
 
 <style>
 .grid {
-	margin-top: 10rem;
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
 	grid-auto-rows: 1fr;
