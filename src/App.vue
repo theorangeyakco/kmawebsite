@@ -15,6 +15,10 @@
 </template>
 
 <style>
+::-webkit-scrollbar {
+	display: none;
+}
+
 @font-face {
 	font-family: "AirbnbBlack";
 	src: url(./fonts/AirbnbCereal-Black.ttf) format("truetype");
