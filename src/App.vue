@@ -73,4 +73,8 @@ a:hover {
 h1 {
 	font-size: 1.8rem;
 }
+
+#nav a.router-link-exact-active {
+	text-decoration: underline !important;
+}
 </style>
