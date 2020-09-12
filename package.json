@@ -8,6 +8,9 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "prismic-dom": "^2.2.3",
+    "prismic-javascript": "^3.0.2",
+    "prismic-vue": "^2.0.1",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0"
   },

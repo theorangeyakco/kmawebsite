@@ -5,15 +5,8 @@
 			<!-- test -->
 			<!-- <img src="https://source.unsplash.com/random" alt="" /> -->
 			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
-
-			<div></div>
-			<div></div>
-
-			<div></div>
+			<img :src="fields.projects[0].data.image.url" alt="" />
+			<img :src="fields.projects[1].data.image.url" alt="" />
 		</div>
 	</div>
 </template>
@@ -21,6 +14,27 @@
 <script>
 export default {
 	Name: "HomeGrid",
+	data() {
+		return {
+			fields: {
+				projects: [],
+			},
+		};
+	},
+	methods: {
+		// This is an example query, the important part is above.
+		getContent() {
+			this.$prismic.client
+				.query(this.$prismic.Predicates.at("document.type", "project"))
+				.then((document) => {
+					this.fields.projects = document.results;
+					console.log(document.results[0].data.image.url);
+				});
+		},
+	},
+	created() {
+		this.getContent();
+	},
 };
 </script>
 
@@ -47,7 +61,14 @@ export default {
 /* Just to make the grid visible */
 
 .grid > * {
-	background: rgba(0, 0, 0, 0.1);
+	background: black;
 	border: 1px white solid;
+}
+
+img {
+	height: 100%;
+	width: 100%;
+	/* min-width: 21.5rem; */
+	object-fit: cover;
 }
 </style>
