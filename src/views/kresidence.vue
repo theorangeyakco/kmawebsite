@@ -4,22 +4,12 @@
 		<div class="grid">
 			<!-- test -->
 			<!-- <img src="https://source.unsplash.com/random" alt="" /> -->
-			<div id="panel">
-				<ul>
-					<li>
-						<router-link to="/kresidence"
-							>{{ fields.projects[0].data.title[0].text }}
-						</router-link>
-					</li>
-					<li>
-						<router-link to="/kresidence"
-							>{{ fields.projects[1].data.title[0].text }}
-						</router-link>
-					</li>
-				</ul>
+
+			<!-- TODO: FIGURE THIS OUT -->
+			<div id="panel"></div>
+			<div v-for="index in fields.projects">
+				<img :src="index.image" alt="" />
 			</div>
-			<img :src="fields.projects[0].data.image.url" alt="" />
-			<img :src="fields.projects[1].data.image.url" alt="" />
 		</div>
 	</div>
 </template>
@@ -40,8 +30,8 @@ export default {
 			this.$prismic.client
 				.query(this.$prismic.Predicates.at("document.type", "project"))
 				.then((document) => {
-					this.fields.projects = document.results;
-					// console.log(document.results[0].data);
+					this.fields.projects = document.results[0].data;
+					console.log(document.results[0].data);
 				});
 		},
 	},
@@ -78,10 +68,6 @@ export default {
 	border: 1px white solid;
 }
 
-a {
-	color: white;
-	text-decoration: none;
-}
 #panel {
 	padding: 1rem 1rem;
 	font-family: "AirbnbBook";
