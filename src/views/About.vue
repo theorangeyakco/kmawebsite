@@ -31,9 +31,10 @@
 
   <div class="about-three">
     <div class="contact-text">
+      <h2>Contact Us</h2>
       <div id="address">
         <h3>Address</h3>
-        <p>Lorem ipsum dolor sit amet.<br>Lorem ipsum dolor sit amet.<br>Lorem ipsum dolor sit amet.<br></p>
+        <p>Kumar Moorthy & Associates<br>Lorem ipsum dolor sit amet.<br>Lorem ipsum dolor sit amet.<br></p>
       </div>
       <div id="phone">
         <h3>Telephone</h3>
@@ -50,9 +51,19 @@
 </div>
 </template>
 
-<script>
-
+<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBd0D-4XVB6Une2u72WUPZk550rdRDsLsM&callback=initMap">
 </script>
+
+<script>
+  function initMap() {
+    var kma = {lat: 28.540491, lng: 77.143204};
+    var map = new google.maps.Map(
+        document.getElementById('map'), {zoom: 4, center: kma});
+    var marker = new google.maps.Marker({position: kma, map: map});
+  }
+</script>
+
+
 
 <style>
 @font-face {
@@ -86,10 +97,10 @@
 }
 
 .map{
-width: 70%;
+width: 60%;
 height: 400px;
-background: green;
-margin-left: 100px;
+margin-left: 220px;
+margin-top: 40px;
 }
 
 .contact-text {
@@ -105,13 +116,16 @@ margin-left: 100px;
   justify-content: start;
 }
 .about-two {
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 120px;
+  margin-bottom: 120px;
   display: flex;
   flex-direction: row;
   justify-content: start;
 }
+
 .about-three {
+  margin-top: 60px;
+  margin-bottom: 120px;
   display: flex;
   flex-direction: row;
   justify-content: start;
@@ -127,7 +141,7 @@ h1{
   font-size: 50px;
 }
 
-h3 {
+h3, h2 {
   font-family: AirbnbBold;
 }
 
