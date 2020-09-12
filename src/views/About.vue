@@ -31,18 +31,18 @@
 
   <div class="about-three">
     <div class="contact-text">
-      <h2>Contact Us</h2>
+      <h1 id="small">Contact Us</h1>
       <div id="address">
         <h3>Address</h3>
-        <p>Kumar Moorthy & Associates<br>Lorem ipsum dolor sit amet.<br>Lorem ipsum dolor sit amet.<br></p>
+        <p>Kumar Moorthy & Associates<br>C 9/9250, Vasant Kunj<br>New Delhi 110070, India<br></p>
       </div>
       <div id="phone">
         <h3>Telephone</h3>
-        <p>Lorem ipsum dolor sit amet.<br>Lorem ipsum dolor sit amet.<br>Lorem ipsum dolor sit amet.<br></p>
+        <p>+011 41767501<br>+011 40044887<br>+011 40044888<br></p>
       </div>
       <div id="email">
         <h3>Email Address</h3>
-        <p>Lorem ipsum dolor sit amet.<br>Lorem ipsum dolor sit amet.<br>Lorem ipsum dolor sit amet.<br></p>
+        <p>office@kumarmoorthy.com<br>mk@kumarmoorthy.com<br>nm@kumarmoorthy.com<br></p>
       </div>
     </div>
     <div class="map">
@@ -51,17 +51,17 @@
 </div>
 </template>
 
-<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBd0D-4XVB6Une2u72WUPZk550rdRDsLsM&callback=initMap">
-</script>
+// <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBd0D-4XVB6Une2u72WUPZk550rdRDsLsM&callback=initMap">
+// </script>
 
-<script>
-  function initMap() {
-    var kma = {lat: 28.540491, lng: 77.143204};
-    var map = new google.maps.Map(
-        document.getElementById('map'), {zoom: 4, center: kma});
-    var marker = new google.maps.Marker({position: kma, map: map});
-  }
-</script>
+// <script>
+//   function initMap() {
+//     var kma = {lat: 28.540491, lng: 77.143204};
+//     var map = new google.maps.Map(
+//         document.getElementById('map'), {zoom: 4, center: kma});
+//     var marker = new google.maps.Marker({position: kma, map: map});
+//   }
+// </script>
 
 
 
@@ -100,9 +100,13 @@
 width: 60%;
 height: 400px;
 margin-left: 220px;
-margin-top: 40px;
+margin-top: 60px;
+background: black;
 }
 
+#small {
+  font-size:40px;
+}
 .contact-text {
   display: flex;
   flex-direction: column;
