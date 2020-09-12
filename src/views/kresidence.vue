@@ -6,9 +6,15 @@
 			<!-- <img src="https://source.unsplash.com/random" alt="" /> -->
 
 			<!-- TODO: FIGURE THIS OUT -->
-			<div id="panel"></div>
-			<div v-for="index in fields.projects">
-				<img :src="index.image" alt="" />
+			<div id="panel">
+				<router-link to="/">Go back</router-link>
+
+				<h1>
+					{{ this.fields.name }}
+				</h1>
+			</div>
+			<div class="imgholder" v-for="index in fields.projects">
+				<img class="img" :src="index.url" alt="" />
 			</div>
 		</div>
 	</div>
@@ -21,6 +27,7 @@ export default {
 		return {
 			fields: {
 				projects: [],
+				name: [],
 			},
 		};
 	},
@@ -30,8 +37,17 @@ export default {
 			this.$prismic.client
 				.query(this.$prismic.Predicates.at("document.type", "project"))
 				.then((document) => {
-					this.fields.projects = document.results[0].data;
-					console.log(document.results[0].data);
+					let array = [];
+					var size = Object.keys(document.results[0].data).length;
+					for (let i = 0; i < size; i++) {
+						array.push(Object.values(document.results[0].data)[i]);
+					}
+
+					array.shift();
+					array.shift();
+
+					this.fields.projects = array;
+					this.fields.name = document.results[0].data.title[0].text;
 				});
 		},
 	},
@@ -41,11 +57,18 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+a {
+	color: white;
+}
 .grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
 	grid-auto-rows: 1fr;
+}
+
+h1 {
+	text-align: center;
 }
 
 .grid::before {
@@ -71,16 +94,16 @@ export default {
 #panel {
 	padding: 1rem 1rem;
 	font-family: "AirbnbBook";
-}
-
-div ul li {
 	color: white;
-	margin: 0;
-	margin-bottom: 0.5rem;
 }
 
-img {
+.imgholder {
 	height: 100%;
+	width: 100%;
+}
+
+.img {
+	height: 19.5rem;
 	width: 100%;
 	/* min-width: 21.5rem; */
 	object-fit: cover;
