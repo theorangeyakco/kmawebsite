@@ -51,19 +51,6 @@
 </div>
 </template>
 
-// <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBd0D-4XVB6Une2u72WUPZk550rdRDsLsM&callback=initMap">
-// </script>
-
-// <script>
-//   function initMap() {
-//     var kma = {lat: 28.540491, lng: 77.143204};
-//     var map = new google.maps.Map(
-//         document.getElementById('map'), {zoom: 4, center: kma});
-//     var marker = new google.maps.Marker({position: kma, map: map});
-//   }
-// </script>
-
-
 
 <style>
 @font-face {
