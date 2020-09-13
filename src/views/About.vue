@@ -46,6 +46,7 @@
       </div>
     </div>
     <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.977949415103!2d77.14096191510274!3d28.54038249499651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1c33c65d9c4f%3A0x24ee13ab8bdd67ea!2sKumar%20Moorthy%20%26%20Associates!5e0!3m2!1sen!2sin!4v1599975292929!5m2!1sen!2sin" width="700" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </div>
   </div>
 </div>
@@ -87,8 +88,7 @@
 width: 60%;
 height: 400px;
 margin-left: 220px;
-margin-top: 60px;
-background: black;
+margin-top: 32px;
 }
 
 #small {
