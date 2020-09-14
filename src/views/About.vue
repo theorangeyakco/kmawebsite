@@ -1,6 +1,5 @@
 <template>
 <div class="about-page">
-
   <div class="about-one">
     <div id="image-one">
       <img src="https://images.unsplash.com/photo-1488972685288-c3fd157d7c7a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" height=550px width=500px>    
@@ -112,6 +111,11 @@ margin-top: 32px;
   display: flex;
   flex-direction: row;
   justify-content: start;
+}
+
+#about-us-text {
+  opacity: 85%;
+  font-weight: 50;
 }
 
 .about-three {
