@@ -7,7 +7,7 @@
 			<div id="panel">
 				<ul>
 					<li>
-						<router-link to="/kresidence"
+						<router-link to="/rfarmhouse"
 							>{{ fields.projects[0].data.title[0].text }}
 						</router-link>
 					</li>
@@ -16,10 +16,112 @@
 							>{{ fields.projects[1].data.title[0].text }}
 						</router-link>
 					</li>
+					<li>
+						<router-link to="/kresidence"
+							>{{ fields.projects[2].data.title[0].text }}
+						</router-link>
+					</li>
+					<li>
+						<router-link to="/kresidence"
+							>{{ fields.projects[3].data.title[0].text }}
+						</router-link>
+					</li>
+					<li>
+						<router-link to="/kresidence"
+							>{{ fields.projects[4].data.title[0].text }}
+						</router-link>
+					</li>
+					<li>
+						<router-link to="/kresidence"
+							>{{ fields.projects[5].data.title[0].text }}
+						</router-link>
+					</li>
+					<li>
+						<router-link to="/kresidence"
+							>{{ fields.projects[6].data.title[0].text }}
+						</router-link>
+					</li>
+					<li>
+						<router-link to="/kresidence"
+							>{{ fields.projects[7].data.title[0].text }}
+						</router-link>
+					</li>
+					<li>
+						<router-link to="/kresidence"
+							>{{ fields.projects[8].data.title[0].text }}
+						</router-link>
+					</li>
+					<li>
+						<router-link to="/kresidence"
+							>{{ fields.projects[9].data.title[0].text }}
+						</router-link>
+					</li>
+					<li>
+						<router-link to="/kresidence"
+							>{{ fields.projects[10].data.title[0].text }}
+						</router-link>
+					</li>
+					<li>
+						<router-link to="/kresidence"
+							>{{ fields.projects[11].data.title[0].text }}
+						</router-link>
+					</li>
+					<li>
+						<router-link to="/kresidence"
+							>{{ fields.projects[12].data.title[0].text }}
+						</router-link>
+					</li>
+					<li>
+						<router-link to="/kresidence"
+							>{{ fields.projects[13].data.title[0].text }}
+						</router-link>
+					</li>
+					<li>
+						<router-link to="/kresidence"
+							>{{ fields.projects[14].data.title[0].text }}
+						</router-link>
+					</li>
+					<li>
+						<router-link to="/kresidence"
+							>{{ fields.projects[15].data.title[0].text }}
+						</router-link>
+					</li>
+					<li>
+						<router-link to="/kresidence"
+							>{{ fields.projects[16].data.title[0].text }}
+						</router-link>
+					</li>
+					<li>
+						<router-link to="/kresidence"
+							>{{ fields.projects[17].data.title[0].text }}
+						</router-link>
+					</li>
+					<li>
+						<router-link to="/kresidence"
+							>{{ fields.projects[18].data.title[0].text }}
+						</router-link>
+					</li>
 				</ul>
 			</div>
 			<img :src="fields.projects[0].data.image.url" alt="" />
 			<img :src="fields.projects[1].data.image.url" alt="" />
+			<img :src="fields.projects[2].data.image.url" alt="" />
+			<img :src="fields.projects[3].data.image.url" alt="" />
+			<img :src="fields.projects[4].data.image.url" alt="" />
+			<img :src="fields.projects[5].data.image.url" alt="" />
+			<img :src="fields.projects[6].data.image.url" alt="" />
+			<img :src="fields.projects[7].data.image.url" alt="" />
+			<img :src="fields.projects[8].data.image.url" alt="" />
+			<img :src="fields.projects[9].data.image.url" alt="" />
+			<img :src="fields.projects[10].data.image.url" alt="" />
+			<img :src="fields.projects[11].data.image.url" alt="" />
+			<img :src="fields.projects[12].data.image.url" alt="" />
+			<img :src="fields.projects[13].data.image.url" alt="" />
+			<img :src="fields.projects[14].data.image.url" alt="" />
+			<img :src="fields.projects[15].data.image.url" alt="" />
+			<img :src="fields.projects[16].data.image.url" alt="" />
+			<img :src="fields.projects[17].data.image.url" alt="" />
+			<img :src="fields.projects[18].data.image.url" alt="" />
 		</div>
 	</div>
 </template>
@@ -41,7 +143,7 @@ export default {
 				.query(this.$prismic.Predicates.at("document.type", "project"))
 				.then((document) => {
 					this.fields.projects = document.results;
-					// console.log(document.results[0].data);
+					console.log(document.results);
 				});
 		},
 	},
@@ -83,14 +185,21 @@ a {
 	text-decoration: none;
 }
 #panel {
-	padding: 1rem 1rem;
+	padding: 1rem 0rem;
 	font-family: "AirbnbBook";
+	overflow: scroll;
+	height: 18.5rem;
 }
 
 div ul li {
 	color: white;
 	margin: 0;
 	margin-bottom: 0.5rem;
+}
+
+a:hover {
+	color: rgb(173, 173, 173);
+	transition: ease all 0.2s;
 }
 
 img {

@@ -50,16 +50,16 @@ export default {
 				.query(this.$prismic.Predicates.at("document.type", "project"))
 				.then((document) => {
 					let array = [];
-					var size = Object.keys(document.results[18].data).length;
+					var size = Object.keys(document.results[0].data).length;
 					for (let i = 0; i < size; i++) {
-						array.push(Object.values(document.results[18].data)[i]);
+						array.push(Object.values(document.results[0].data)[i]);
 					}
 
 					array.shift();
 					array.shift();
 
 					this.fields.projects = array;
-					this.fields.name = document.results[18].data.title[0].text;
+					this.fields.name = document.results[0].data.title[0].text;
 				});
 		},
 	},
@@ -82,11 +82,6 @@ a {
 h1 {
 	text-align: left;
 	font-size: 1.5rem;
-}
-
-a:hover {
-	color: rgb(173, 173, 173);
-	transition: ease all 0.2s;
 }
 
 .grid::before {
@@ -132,5 +127,10 @@ a:hover {
 	width: 100%;
 	/* min-width: 21.5rem; */
 	object-fit: cover;
+}
+
+a:hover {
+	color: rgb(173, 173, 173);
+	transition: ease all 0.2s;
 }
 </style>
