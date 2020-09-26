@@ -176,7 +176,7 @@
 }
 
 #about-us-text {
-	opacity: 100%;
+	opacity: 1;
 	font-weight: 50;
 }
 
