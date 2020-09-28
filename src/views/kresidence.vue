@@ -59,6 +59,7 @@ export default {
 					array.shift();
 
 					this.fields.projects = array;
+					console.log(this.fields.projects);
 					this.fields.name = document.results[18].data.title[0].text;
 				});
 		},
