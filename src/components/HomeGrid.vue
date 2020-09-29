@@ -12,87 +12,87 @@
 						</router-link>
 					</li>
 					<li>
-						<router-link to="/kresidence"
+						<router-link to="/tresidence"
 							>{{ fields.projects[1].data.title[0].text }}
 						</router-link>
 					</li>
 					<li>
-						<router-link to="/kresidence"
+						<router-link to="/sresidence2"
 							>{{ fields.projects[2].data.title[0].text }}
 						</router-link>
 					</li>
 					<li>
-						<router-link to="/kresidence"
+						<router-link to="/creativecorp"
 							>{{ fields.projects[3].data.title[0].text }}
 						</router-link>
 					</li>
 					<li>
-						<router-link to="/kresidence"
+						<router-link to="/jresidence"
 							>{{ fields.projects[4].data.title[0].text }}
 						</router-link>
 					</li>
 					<li>
-						<router-link to="/kresidence"
+						<router-link to="/gfarmhouse"
 							>{{ fields.projects[5].data.title[0].text }}
 						</router-link>
 					</li>
 					<li>
-						<router-link to="/kresidence"
+						<router-link to="/scientech"
 							>{{ fields.projects[6].data.title[0].text }}
 						</router-link>
 					</li>
 					<li>
-						<router-link to="/kresidence"
+						<router-link to="/sresidence1"
 							>{{ fields.projects[7].data.title[0].text }}
 						</router-link>
 					</li>
 					<li>
-						<router-link to="/kresidence"
+						<router-link to="/bresidence"
 							>{{ fields.projects[8].data.title[0].text }}
 						</router-link>
 					</li>
 					<li>
-						<router-link to="/kresidence"
+						<router-link to="/japartment"
 							>{{ fields.projects[9].data.title[0].text }}
 						</router-link>
 					</li>
 					<li>
-						<router-link to="/kresidence"
+						<router-link to="/sysproperties"
 							>{{ fields.projects[10].data.title[0].text }}
 						</router-link>
 					</li>
 					<li>
-						<router-link to="/kresidence"
+						<router-link to="/marveloffice"
 							>{{ fields.projects[11].data.title[0].text }}
 						</router-link>
 					</li>
 					<li>
-						<router-link to="/kresidence"
+						<router-link to="/sresidencedefcol"
 							>{{ fields.projects[12].data.title[0].text }}
 						</router-link>
 					</li>
 					<li>
-						<router-link to="/kresidence"
+						<router-link to="/dalycollege"
 							>{{ fields.projects[13].data.title[0].text }}
 						</router-link>
 					</li>
 					<li>
-						<router-link to="/kresidence"
+						<router-link to="/mhousevv"
 							>{{ fields.projects[14].data.title[0].text }}
 						</router-link>
 					</li>
 					<li>
-						<router-link to="/kresidence"
+						<router-link to="/incasfarmhouse"
 							>{{ fields.projects[15].data.title[0].text }}
 						</router-link>
 					</li>
 					<li>
-						<router-link to="/kresidence"
+						<router-link to="/rvhouse"
 							>{{ fields.projects[16].data.title[0].text }}
 						</router-link>
 					</li>
 					<li>
-						<router-link to="/kresidence"
+						<router-link to="/bungalow99"
 							>{{ fields.projects[17].data.title[0].text }}
 						</router-link>
 					</li>
