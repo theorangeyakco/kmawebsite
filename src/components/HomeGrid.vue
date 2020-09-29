@@ -103,86 +103,139 @@
 					</li>
 				</ul>
 			</div>
-			<div class="holder">
-				<img :src="fields.projects[0].data.image.url" alt="" />
-				<p>{{ fields.projects[0].data.title[0].text }}</p>
-			</div>
+
+			<router-link to="/rfarmhouse">
+				<div class="holder">
+					<img :src="fields.projects[0].data.image.url" alt="" />
+					<p>{{ fields.projects[0].data.title[0].text }}</p>
+				</div>
+			</router-link>
+
+			<router-link to="/tresidence">
 			<div class="holder">
 				<img :src="fields.projects[1].data.image.url" alt="" />
 				<p>{{ fields.projects[1].data.title[0].text }}</p>
 			</div>
+			</router-link>
+
+			<router-link to="/sresidence2">
 			<div class="holder">
 				<img :src="fields.projects[2].data.image.url" alt="" />
 				<p>{{ fields.projects[2].data.title[0].text }}</p>
 			</div>
+			</router-link>
+
+			<router-link to="/creativecorp">
 			<div class="holder">
 				<img :src="fields.projects[3].data.image.url" alt="" />
 				<p>{{ fields.projects[3].data.title[0].text }}</p>
 			</div>
+			</router-link>
+
+			<router-link to="/jresidence">
 			<div class="holder">
 				<img :src="fields.projects[4].data.image.url" alt="" />
 				<p>{{ fields.projects[4].data.title[0].text }}</p>
 			</div>
+			</router-link>
+
+			<router-link to="/gfarmhouse">
 			<div class="holder">
 				<img :src="fields.projects[5].data.image.url" alt="" />
 				<p>{{ fields.projects[5].data.title[0].text }}</p>
 			</div>
+			</router-link>
+
+			<router-link to="/scientech">
 			<div class="holder">
 				<img :src="fields.projects[6].data.image.url" alt="" />
 				<p>{{ fields.projects[6].data.title[0].text }}</p>
 			</div>
+			</router-link>
+
+			<router-link to="/sresidence1">
 			<div class="holder">
 				<img :src="fields.projects[7].data.image.url" alt="" />
 				<p>{{ fields.projects[7].data.title[0].text }}</p>
 			</div>
+			</router-link>
+
+			<router-link to="/bresidence">
 			<div class="holder">
 				<img :src="fields.projects[8].data.image.url" alt="" />
 				<p>{{ fields.projects[8].data.title[0].text }}</p>
 			</div>
+			</router-link>
+
+			<router-link to="/japartment">
 			<div class="holder">
 				<img :src="fields.projects[9].data.image.url" alt="" />
 				<p>{{ fields.projects[9].data.title[0].text }}</p>
 			</div>
+			</router-link>
+
+			<router-link to="/sysproperties">
 			<div class="holder">
 				<img :src="fields.projects[10].data.image.url" alt="" />
 				<p>{{ fields.projects[10].data.title[0].text }}</p>
 			</div>
+			</router-link>
+
+			<router-link to="/marveloffice">
 			<div class="holder">
 				<img :src="fields.projects[11].data.image.url" alt="" />
 				<p>{{ fields.projects[11].data.title[0].text }}</p>
 			</div>
+			</router-link>
+
+			<router-link to="/sresidencedefcol">
 			<div class="holder">
 				<img :src="fields.projects[12].data.image.url" alt="" />
 				<p>{{ fields.projects[12].data.title[0].text }}</p>
 			</div>
-			<div class="holder">
-				<img :src="fields.projects[11].data.image.url" alt="" />
-				<p>{{ fields.projects[11].data.title[0].text }}</p>
-			</div>
+			</router-link>
+
+			<router-link to="/dalycollege">
 			<div class="holder">
 				<img :src="fields.projects[13].data.image.url" alt="" />
 				<p>{{ fields.projects[13].data.title[0].text }}</p>
 			</div>
+			</router-link>
+
+			<router-link to="/mhousevv">
 			<div class="holder">
 				<img :src="fields.projects[14].data.image.url" alt="" />
 				<p>{{ fields.projects[14].data.title[0].text }}</p>
 			</div>
+			</router-link>
+
+			<router-link to="/incasfarmhouse">
 			<div class="holder">
 				<img :src="fields.projects[15].data.image.url" alt="" />
 				<p>{{ fields.projects[15].data.title[0].text }}</p>
 			</div>
+			</router-link>
+
+			<router-link to="/rvhouse">
 			<div class="holder">
 				<img :src="fields.projects[16].data.image.url" alt="" />
 				<p>{{ fields.projects[16].data.title[0].text }}</p>
 			</div>
+			</router-link>
+
+			<router-link to="/bungalow99">
 			<div class="holder">
 				<img :src="fields.projects[17].data.image.url" alt="" />
 				<p>{{ fields.projects[17].data.title[0].text }}</p>
 			</div>
+			</router-link>
+
+			<router-link to="/kresidence">
 			<div class="holder">
 				<img :src="fields.projects[18].data.image.url" alt="" />
 				<p>{{ fields.projects[18].data.title[0].text }}</p>
 			</div>
+			</router-link>
 		</div>
 	</div>
 </template>
