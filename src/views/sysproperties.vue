@@ -50,9 +50,9 @@ export default {
 				.query(this.$prismic.Predicates.at("document.type", "project"))
 				.then((document) => {
 					let array = [];
-					var size = Object.keys(document.results[18].data).length;
+					var size = Object.keys(document.results[10].data).length;
 					for (let i = 0; i < size; i++) {
-						array.push(Object.values(document.results[18].data)[i]);
+						array.push(Object.values(document.results[10].data)[i]);
 					}
 
 					array.shift();
@@ -60,7 +60,7 @@ export default {
 
 					this.fields.projects = array;
 					console.log(this.fields.projects);
-					this.fields.name = document.results[18].data.title[0].text;
+					this.fields.name = document.results[10].data.title[0].text;
 				});
 		},
 	},
