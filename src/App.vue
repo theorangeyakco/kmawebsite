@@ -10,13 +10,30 @@
 				<router-link to="/about">About</router-link>
 			</div>
 		</div>
-		<router-view />
+		<transition name="fade">
+			<router-view />
+		</transition>
 	</div>
 </template>
 
 <style>
 ::-webkit-scrollbar {
 	display: none;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+	transition-property: opacity;
+	transition-duration: 0.25s;
+}
+
+.fade-enter-active {
+	transition-delay: 0.25s;
+}
+
+.fade-enter,
+.fade-leave-active {
+	opacity: 0;
 }
 
 @font-face {
