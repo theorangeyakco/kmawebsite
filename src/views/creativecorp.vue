@@ -13,16 +13,7 @@
 					{{ this.fields.name }}
 				</h1>
 				<p>
-					Lorem Ipsum is simply dummy text of the printing and
-					typesetting industry. Lorem Ipsum has been the industry's
-					standard dummy text ever since the 1500s, when an unknown
-					printer took a galley of type and scrambled it to make a
-					type specimen book. It has survived not only five centuries,
-					but also the leap into electronic typesetting, remaining
-					essentially unchanged. It was popularised in the 1960s with
-					the release of Letraset sheets containing Lorem Ipsum
-					passages, and more recently with desktop publishing software
-					like Aldus PageMaker including versions of Lorem Ipsum.
+					This 50,000 Sq foot office for a dynamic, youthful  and vibrant travel company catering to a bespoke clientele , won out firm multiple national and international awards in 2019 . A remarkably successful synergy between the clients and us resulted in a building that tries to ease itself into its semi industrial and rapidly gentrifying office area with a sharply dileneated yet quiet form that places precedence on maximal wellness for all its occupants with ample natural light and views of greenery . The building incorporates many sustainable green features while edgy details make it as vibrant as its occupant company.
 				</p>
 			</div>
 			<div class="imgholder" v-for="index in fields.projects">

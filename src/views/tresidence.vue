@@ -13,16 +13,8 @@
 					{{ this.fields.name }}
 				</h1>
 				<p>
-					Lorem Ipsum is simply dummy text of the printing and
-					typesetting industry. Lorem Ipsum has been the industry's
-					standard dummy text ever since the 1500s, when an unknown
-					printer took a galley of type and scrambled it to make a
-					type specimen book. It has survived not only five centuries,
-					but also the leap into electronic typesetting, remaining
-					essentially unchanged. It was popularised in the 1960s with
-					the release of Letraset sheets containing Lorem Ipsum
-					passages, and more recently with desktop publishing software
-					like Aldus PageMaker including versions of Lorem Ipsum.
+					Situated in suburban Gurgaon , this red brick house for a retired air chief and his wife reverses the normal with private spaces towards the front and its living spaces in the rear overlooking a large local park .
+A series of open spaces and courtyards embellished with colourful handmade tiles and plantation make the entrance sequence a gradually revealing progression while large glazed internal openings and internal atria provide greater degrees of interconnectedness to spaces inhabited largely by just the retired couple, each maximising views of adjoining open green spaces.
 				</p>
 			</div>
 			<div class="imgholder" v-for="index in fields.projects">

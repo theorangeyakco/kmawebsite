@@ -13,16 +13,7 @@
 					{{ this.fields.name }}
 				</h1>
 				<p>
-					Lorem Ipsum is simply dummy text of the printing and
-					typesetting industry. Lorem Ipsum has been the industry's
-					standard dummy text ever since the 1500s, when an unknown
-					printer took a galley of type and scrambled it to make a
-					type specimen book. It has survived not only five centuries,
-					but also the leap into electronic typesetting, remaining
-					essentially unchanged. It was popularised in the 1960s with
-					the release of Letraset sheets containing Lorem Ipsum
-					passages, and more recently with desktop publishing software
-					like Aldus PageMaker including versions of Lorem Ipsum.
+					This house for 2 generations of a busy lawyer family maximises it’s three side open corner location with parking tucked away in the rear enabling a generous wrap around garden in the front . Entered through a small pedestrian gate, the front garden provides a screened spillover space for the living spaces of the house while an internal atrium brings light and verdure into the heart of the house , connecting living spaces on various floors into a whole . Large glazed openings and the presence of bath courts ensure one is never far from green views while sliding wooden slatted screens ensure a modicum of privacy and shade to internal spaces when desired.
 				</p>
 			</div>
 			<div class="imgholder" v-for="index in fields.projects">

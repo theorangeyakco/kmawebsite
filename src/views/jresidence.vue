@@ -13,16 +13,9 @@
 					{{ this.fields.name }}
 				</h1>
 				<p>
-					Lorem Ipsum is simply dummy text of the printing and
-					typesetting industry. Lorem Ipsum has been the industry's
-					standard dummy text ever since the 1500s, when an unknown
-					printer took a galley of type and scrambled it to make a
-					type specimen book. It has survived not only five centuries,
-					but also the leap into electronic typesetting, remaining
-					essentially unchanged. It was popularised in the 1960s with
-					the release of Letraset sheets containing Lorem Ipsum
-					passages, and more recently with desktop publishing software
-					like Aldus PageMaker including versions of Lorem Ipsum.
+					This multigenerational family home built on a 550 Sq yard property in Jangpura in New Delhi Is focused around a central atrium that knits together spaces occupied by various members on various floors while also bringing in light and greenery into the heart of the house.
+					A multiplicity of living spaces spread across 4 floors provide for availability for each family members needs without disturving others while the very transparent interior spaces remain connected visually to reinforce connectedness.
+					Reversing the normal, the usual front garden is replaced by a private screened lap pool while the second floor opens on to a terrace garden.
 				</p>
 			</div>
 			<div class="imgholder" v-for="index in fields.projects">
