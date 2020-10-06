@@ -13,13 +13,24 @@
 					{{ this.fields.name }}
 				</h1>
 				<p>
-					This multigenerational family home built on a 550 Sq yard property in Jangpura in New Delhi Is focused around a central atrium that knits together spaces occupied by various members on various floors while also bringing in light and greenery into the heart of the house.
-					A multiplicity of living spaces spread across 4 floors provide for availability for each family members needs without disturving others while the very transparent interior spaces remain connected visually to reinforce connectedness.
-					Reversing the normal, the usual front garden is replaced by a private screened lap pool while the second floor opens on to a terrace garden.
+					This multigenerational family home built on a 550 Sq yard
+					property in Jangpura in New Delhi Is focused around a
+					central atrium that knits together spaces occupied by
+					various members on various floors while also bringing in
+					light and greenery into the heart of the house. A
+					multiplicity of living spaces spread across 4 floors provide
+					for availability for each family members needs without
+					disturving others while the very transparent interior spaces
+					remain connected visually to reinforce connectedness.
+					Reversing the normal, the usual front garden is replaced by
+					a private screened lap pool while the second floor opens on
+					to a terrace garden.
 				</p>
 			</div>
 			<div class="imgholder" v-for="index in fields.projects">
-				<img class="img" :src="index.url" alt="" />
+				<a :href="index.url" target="_blank">
+					<img class="img" :src="index.url" alt="" />
+				</a>
 			</div>
 		</div>
 	</div>
@@ -126,5 +137,11 @@ a:hover {
 	width: 100%;
 	/* min-width: 21.5rem; */
 	object-fit: cover;
+	transition: all 0.2s ease;
+}
+
+.img:hover {
+	opacity: 0.5;
+	transition: all 0.2s ease;
 }
 </style>

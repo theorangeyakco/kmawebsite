@@ -13,17 +13,28 @@
 					{{ this.fields.name }}
 				</h1>
 				<p>
-					Located in picturesque rural Tijara , a couple of hours away from Delhi in Rajasthan, this house built for a family passionate about their vocation of organic vegetable farming, combines local materials and a simple aesthetic to meld into its landscape , exploiting views of and connections to open spaces with an easy legible and open layout.
+					Located in picturesque rural Tijara , a couple of hours away
+					from Delhi in Rajasthan, this house built for a family
+					passionate about their vocation of organic vegetable
+					farming, combines local materials and a simple aesthetic to
+					meld into its landscape , exploiting views of and
+					connections to open spaces with an easy legible and open
+					layout.
 				</p>
 			</div>
+
 			<div class="imgholder" v-for="index in fields.projects">
-				<img class="img" :src="index.url" alt="" />
+				<a :href="index.url" target="_blank">
+					<img class="img" :src="index.url" alt="" />
+				</a>
 			</div>
 		</div>
 	</div>
 </template>
 
 <script>
+import LightBox from "vue-image-lightbox";
+
 export default {
 	Name: "HomeGrid",
 	data() {
@@ -31,8 +42,12 @@ export default {
 			fields: {
 				projects: [],
 				name: [],
+				urls: [],
 			},
 		};
+	},
+	components: {
+		LightBox,
 	},
 	methods: {
 		// This is an example query, the important part is above.
@@ -51,6 +66,15 @@ export default {
 
 					this.fields.projects = array;
 					this.fields.name = document.results[0].data.title[0].text;
+
+					let newArray = [];
+					for (let i = 0; i < size; i++) {
+						newArray.push(this.fields.projects[0].url);
+					}
+					// console.log(this.fields.projects[0].url);
+
+					this.fields.urls = newArray;
+					console.log(this.fields.urls);
 				});
 		},
 	},
@@ -118,6 +142,12 @@ h1 {
 	width: 100%;
 	/* min-width: 21.5rem; */
 	object-fit: cover;
+	transition: all 0.2s ease;
+}
+
+.img:hover {
+	opacity: 0.5;
+	transition: all 0.2s ease;
 }
 
 a:hover {

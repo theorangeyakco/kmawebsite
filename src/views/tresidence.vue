@@ -13,12 +13,23 @@
 					{{ this.fields.name }}
 				</h1>
 				<p>
-					Situated in suburban Gurgaon , this red brick house for a retired air chief and his wife reverses the normal with private spaces towards the front and its living spaces in the rear overlooking a large local park .
-A series of open spaces and courtyards embellished with colourful handmade tiles and plantation make the entrance sequence a gradually revealing progression while large glazed internal openings and internal atria provide greater degrees of interconnectedness to spaces inhabited largely by just the retired couple, each maximising views of adjoining open green spaces.
+					Situated in suburban Gurgaon , this red brick house for a
+					retired air chief and his wife reverses the normal with
+					private spaces towards the front and its living spaces in
+					the rear overlooking a large local park . A series of open
+					spaces and courtyards embellished with colourful handmade
+					tiles and plantation make the entrance sequence a gradually
+					revealing progression while large glazed internal openings
+					and internal atria provide greater degrees of
+					interconnectedness to spaces inhabited largely by just the
+					retired couple, each maximising views of adjoining open
+					green spaces.
 				</p>
 			</div>
 			<div class="imgholder" v-for="index in fields.projects">
-				<img class="img" :src="index.url" alt="" />
+				<a :href="index.url" target="_blank">
+					<img class="img" :src="index.url" alt="" />
+				</a>
 			</div>
 		</div>
 	</div>
@@ -125,5 +136,11 @@ a:hover {
 	width: 100%;
 	/* min-width: 21.5rem; */
 	object-fit: cover;
+	transition: all 0.2s ease;
+}
+
+.img:hover {
+	opacity: 0.5;
+	transition: all 0.2s ease;
 }
 </style>

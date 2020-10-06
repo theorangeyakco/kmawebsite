@@ -26,7 +26,9 @@
 				</p>
 			</div>
 			<div class="imgholder" v-for="index in fields.projects">
-				<img class="img" :src="index.url" alt="" />
+				<a :href="index.url" target="_blank">
+					<img class="img" :src="index.url" alt="" />
+				</a>
 			</div>
 		</div>
 	</div>
@@ -133,5 +135,11 @@ a:hover {
 	width: 100%;
 	/* min-width: 21.5rem; */
 	object-fit: cover;
+	transition: all 0.2s ease;
+}
+
+.img:hover {
+	opacity: 0.5;
+	transition: all 0.2s ease;
 }
 </style>

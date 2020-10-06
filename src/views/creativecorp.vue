@@ -13,11 +13,23 @@
 					{{ this.fields.name }}
 				</h1>
 				<p>
-					This 50,000 Sq foot office for a dynamic, youthful  and vibrant travel company catering to a bespoke clientele , won out firm multiple national and international awards in 2019 . A remarkably successful synergy between the clients and us resulted in a building that tries to ease itself into its semi industrial and rapidly gentrifying office area with a sharply dileneated yet quiet form that places precedence on maximal wellness for all its occupants with ample natural light and views of greenery . The building incorporates many sustainable green features while edgy details make it as vibrant as its occupant company.
+					This 50,000 Sq foot office for a dynamic, youthful and
+					vibrant travel company catering to a bespoke clientele , won
+					out firm multiple national and international awards in 2019
+					. A remarkably successful synergy between the clients and us
+					resulted in a building that tries to ease itself into its
+					semi industrial and rapidly gentrifying office area with a
+					sharply dileneated yet quiet form that places precedence on
+					maximal wellness for all its occupants with ample natural
+					light and views of greenery . The building incorporates many
+					sustainable green features while edgy details make it as
+					vibrant as its occupant company.
 				</p>
 			</div>
 			<div class="imgholder" v-for="index in fields.projects">
-				<img class="img" :src="index.url" alt="" />
+				<a :href="index.url" target="_blank">
+					<img class="img" :src="index.url" alt="" />
+				</a>
 			</div>
 		</div>
 	</div>
@@ -124,5 +136,11 @@ a:hover {
 	width: 100%;
 	/* min-width: 21.5rem; */
 	object-fit: cover;
+	transition: all 0.2s ease;
+}
+
+.img:hover {
+	opacity: 0.5;
+	transition: all 0.2s ease;
 }
 </style>

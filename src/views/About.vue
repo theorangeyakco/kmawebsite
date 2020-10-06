@@ -1,13 +1,13 @@
 <template>
 	<div class="about-page">
 		<div class="about-one">
-			<div id="image-one">
+			<!-- <div id="image-one">
 				<img
 					src="https://images.unsplash.com/photo-1488972685288-c3fd157d7c7a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
 					height="550px"
 					width="500px"
 				/>
-			</div>
+			</div> -->
 			<div id="text-one">
 				<h1>About Us</h1>
 				<p id="about-us-text">
@@ -114,7 +114,7 @@
 	</div>
 </template>
 
-<style>
+<style scoped>
 @font-face {
 	font-family: "AirbnbBlack";
 	src: url(../fonts/AirbnbCereal-Black.ttf) format("truetype");
@@ -148,7 +148,7 @@
 .map {
 	width: 60%;
 	height: 400px;
-	margin-left: 220px;
+	margin-left: 40px;
 	margin-top: 32px;
 }
 
@@ -185,11 +185,11 @@
 	margin-bottom: 120px;
 	display: flex;
 	flex-direction: row;
-	justify-content: start;
+	justify-content: space-between;
 }
 
 #text-one {
-	margin-left: 50px;
+	/* margin-left: 50px; */
 	justify-content: start;
 }
 
@@ -233,5 +233,32 @@ p {
 	border-radius: 100px;
 	background: black;
 	margin: 20px;
+}
+
+iframe {
+	width: 100%;
+}
+
+.image-one {
+	margin-right: 2rem;
+}
+
+@media screen and (max-width: 1025px) {
+	.about-three {
+		flex-direction: column;
+		text-align: center;
+	}
+	.image-one,
+	.arch {
+		display: none;
+	}
+
+	#text-one {
+		margin-left: 0;
+	}
+	.map {
+		width: 100%;
+		margin-left: 0;
+	}
 }
 </style>
