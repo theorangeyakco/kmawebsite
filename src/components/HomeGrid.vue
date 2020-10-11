@@ -343,11 +343,11 @@ a {
 
 @media screen and (min-width: 768px) {
 	#panel {
-		height: 20.5rem;
+		/* height: 20.5rem; */
 	}
 
 	.holder {
-		height: 23.5rem;
+		/* height: 23.5rem; */
 	}
 }
 

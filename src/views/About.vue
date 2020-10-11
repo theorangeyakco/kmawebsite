@@ -13,25 +13,41 @@
 				<p id="about-us-text">
 					Established in 1990, Kumar Moorthy & Associates is an award
 					winning partnership firm of architects and interior
-					designers based in Delhi.<br />
-					<br />In the twenty-nine years since inception we have
-					undertaken and successfully completed a wide range of design
-					works in the diverse fields of residential design and
-					interiors, institutional and hotel design, commercial and
-					office spaces and interiors. <br />
-					<br />The clients for the above include notable industrial
-					groups, private limited companies, charitable and non
-					government organisations, government agencies and public
-					figures other than private individuals. <br />
-					<br />We have executed projects in the diverse locations of
-					Delhi N.C.R including Noida , Gurgaon, Manesar & Bawal as
-					also in Agra, Mumbai, Indore (M.P.) and Kullu (H.P)<br />
+					designers based in Delhi. In the twenty nine years since
+					inception we have undertaken and successfully completed a
+					wide range of design works in the diverse fields of
+					residential design and interiors, institutional and hotel
+					design, commercial and office spaces and interiors. The
+					clients for the above include notable industrial groups,
+					private limited companies, charitable and non government
+					organisations, government agencies and public figures other
+					than private individuals.
 					<br />
-					Lorem ipsum dolor sit amet consectetur adipisicing elit.
-					Doloribus molestiae aut nisi tenetur in aliquam, sit
-					veritatis minus consequuntur quo eos! Eos repellendus
-					consectetur debitis facere dolorem earum! Fuga, soluta,
-					sequi minus molestias omnis ullam eligendi.<br />
+					<br />
+					The firm has been honoured to receive awards in various
+					categories under the prestigious J.K. Architect of the Year
+					Awards in 1995 and 1997, and the Indian Institute of
+					Interior Designers- MK Award 2004 & 2006, Best Office
+					Architecture India, Asia Pacific Property Awards
+					Architecture 2018, The I.I.A National Awards for Excellence
+					2018.
+					<br />
+					<br />
+					We have executed projects in the diverse locations of Delhi
+					N.C.R including Noida , Gurgaon, Manesar & Bawal as also in
+					Agra, Mumbai, Indore (M.P.) and Kullu (H.P).
+					<br />
+					<br />
+					Recent notable projects by the firm span a diverse spectrum
+					of concept, philosophy and materials and include an building
+					in the Indo Saracenic heritage campus of a 125 year old
+					public school in Indore and a low cost building using &
+					exemplifying alternative technology for a rehabilitation
+					centre in West Delhi for an NGO for disabled persons to a
+					factory for a large upcoming Indo American lighting JV in
+					Bawal, Haryana other than corporate office buildings &
+					interiors in Gurgaon & NOIDA and a small number of
+					significant residential projects including farmhouses.
 				</p>
 			</div>
 		</div>
@@ -40,38 +56,44 @@
 			<div id="text-two">
 				<h1>Principal Architects</h1>
 				<p id="about-us-text">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-					Officia quod vel cupiditate sit reprehenderit at. Maxime
-					esse, facere, doloremque rerum omnis nisi commodi aspernatur
-					explicabo adipisci totam accusamus ipsa vero illo ad minima,
-					cum consequuntur pariatur. Vitae, modi. Enim nesciunt magni
-					numquam amet, consequatur dolor itaque exercitationem
-					corrupti, quis minima eaque nam. Aliquid vel sapiente
-					distinctio molestias ducimus. Sint iste itaque voluptatibus,
-					similique placeat alias tempore officiis sunt nemo, ex totam
-					dolor illo doloribus minus mollitia voluptatum nostrum ipsa
-					distinctio expedita. Ullam quos suscipit atque error enim
-					autem officia quia quaerat voluptatibus maiores, similique
-					placeat facere repellat omnis facilis! Blanditiis.<br />
-					<br />Lorem ipsum dolor, sit amet consectetur adipisicing
-					elit. Iure ipsa doloribus velit adipisci nobis est harum
-					reprehenderit, mollitia tenetur molestiae facere sapiente
-					similique fugiat quasi odio itaque autem voluptatem ab qui
-					eveniet recusandae possimus ratione voluptate iste. Culpa,
-					ipsum quas deserunt fugit doloribus quos ratione inventore
-					officiis reiciendis, voluptate voluptas, dolorum distinctio
-					eius asperiores quibusdam deleniti dolor. Nesciunt, facere,
-					saepe sequi culpa non excepturi dolores enim cupiditate
-					iusto, iste animi aliquid nobis doloribus? Id odio similique
-					nesciunt placeat nobis eaque molestiae, consequuntur
-					laboriosam expedita ipsum architecto officiis incidunt
-					eligendi explicabo. Asperiores iste libero cupiditate
-					molestiae, praesentium ipsum laborum! Deserunt, magni?<br />
+					<strong>Mallika Kumar</strong>
+					<br />
+					<br />
+					* Schooling : The Lawrence School, Sanawar
+					<br />
+					<br />
+					* Professional Qualifications : B.Arch. from School of
+					Architecture, Institute of Environmental Design, Vallabh
+					Vidyanagar, Gujarat.
+					<br />
+					<br />
+					* Professional experience prior to setting up firm : a. S.K.
+					Das & Associates, New Delhi (1988)
+
+					<br />
+					<br />
+					<br />
+					<strong>Narayan Moorthy</strong>
+					<br />
+					<br />
+					* Schooling : The Daly College, Indore
+					<br />
+					<br />
+					* Professional Qualifications : B.Arch. from School of
+					Architecture, Institute of Environmental Design, Vallabh
+					Vidyanagar, Gujarat.
+					<br />
+					<br />
+					* Professional experience prior to setting up firm : a.
+					Society for Development Alternatives, New Delhi (1988) b.
+					VIKAS Centre for Development, Ahmedabad (1991). In addition
+					to private practice, Narayan Moorthy has also briefly taught
+					architecture at T.V.B. School of Habitat Studies, New Delhi.
 				</p>
 			</div>
 			<div class="arch">
-				<div class="circ"></div>
-				<div class="image-circ"></div>
+				<img class="circ" src="../assets/MK-220x300.jpg" />
+				<img class="image-circ" src="../assets/1..jpg" />
 			</div>
 		</div>
 
