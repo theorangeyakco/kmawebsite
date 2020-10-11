@@ -15,8 +15,7 @@
 				<p>
 					This 50,000 Sq foot office for a dynamic, youthful and
 					vibrant travel company catering to a bespoke clientele , won
-					out firm multiple national and international awards in 2019
-					. A remarkably successful synergy between the clients and us
+					out firm multiple national and international awards in 2019. A remarkably successful synergy between the clients and us
 					resulted in a building that tries to ease itself into its
 					semi industrial and rapidly gentrifying office area with a
 					sharply dileneated yet quiet form that places precedence on

@@ -13,16 +13,7 @@
 					{{ this.fields.name }}
 				</h1>
 				<p>
-					Lorem Ipsum is simply dummy text of the printing and
-					typesetting industry. Lorem Ipsum has been the industry's
-					standard dummy text ever since the 1500s, when an unknown
-					printer took a galley of type and scrambled it to make a
-					type specimen book. It has survived not only five centuries,
-					but also the leap into electronic typesetting, remaining
-					essentially unchanged. It was popularised in the 1960s with
-					the release of Letraset sheets containing Lorem Ipsum
-					passages, and more recently with desktop publishing software
-					like Aldus PageMaker including versions of Lorem Ipsum.
+					Endless lush vistas, outward looking spaces and an earthy materiality infuse this farmhouse with comfort & endless charm.The clients, very old and dear friends, approached us with a simple brief – they wanted a weekend retreat which could become their permanent home in later years. A home that had enough spaces for entertainment with endless outdoor views and corners for privacy, ideal for multi-generational living- all for the use of a family intimately known to us.
 				</p>
 			</div>
 			<div class="imgholder" v-for="index in fields.projects">

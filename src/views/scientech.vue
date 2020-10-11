@@ -13,16 +13,8 @@
 					{{ this.fields.name }}
 				</h1>
 				<p>
-					Lorem Ipsum is simply dummy text of the printing and
-					typesetting industry. Lorem Ipsum has been the industry's
-					standard dummy text ever since the 1500s, when an unknown
-					printer took a galley of type and scrambled it to make a
-					type specimen book. It has survived not only five centuries,
-					but also the leap into electronic typesetting, remaining
-					essentially unchanged. It was popularised in the 1960s with
-					the release of Letraset sheets containing Lorem Ipsum
-					passages, and more recently with desktop publishing software
-					like Aldus PageMaker including versions of Lorem Ipsum.
+					The Scientech  Corporate Office & Factory was designed for a rapidly growing company in the business of manufacturing  electronic & didactic equipment on a half acre plot in the Electronics Complex Estate in the West of Indore. 
+The approx 22,000 sq.ft facility is designed according to the principles of Vaastu, the limitations of which provided form giving directions to the design.
 				</p>
 			</div>
 			<div class="imgholder" v-for="index in fields.projects">

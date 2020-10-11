@@ -13,16 +13,7 @@
 					{{ this.fields.name }}
 				</h1>
 				<p>
-					Lorem Ipsum is simply dummy text of the printing and
-					typesetting industry. Lorem Ipsum has been the industry's
-					standard dummy text ever since the 1500s, when an unknown
-					printer took a galley of type and scrambled it to make a
-					type specimen book. It has survived not only five centuries,
-					but also the leap into electronic typesetting, remaining
-					essentially unchanged. It was popularised in the 1960s with
-					the release of Letraset sheets containing Lorem Ipsum
-					passages, and more recently with desktop publishing software
-					like Aldus PageMaker including versions of Lorem Ipsum.
+					Design around a multiplicity of lushly planted courtyards, the differing treatment of each courtyard helping to imbue the progression through the house with different experiences at each pause. The clients did not want to sacrifice spaciousness given their choice of locating to a country home thus the use of inexpensive materials & minimization of use of expensive materials like hardwood where necessary in order to cut costs. 
 				</p>
 			</div>
 			<div class="imgholder" v-for="index in fields.projects">

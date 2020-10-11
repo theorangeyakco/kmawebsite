@@ -13,10 +13,10 @@
 					{{ this.fields.name }}
 				</h1>
 				<p>
-					Situated in suburban Gurgaon , this red brick house for a
+					Situated in suburban Gurgaon, this red brick house for a
 					retired air chief and his wife reverses the normal with
 					private spaces towards the front and its living spaces in
-					the rear overlooking a large local park . A series of open
+					the rear overlooking a large local park. A series of open
 					spaces and courtyards embellished with colourful handmade
 					tiles and plantation make the entrance sequence a gradually
 					revealing progression while large glazed internal openings

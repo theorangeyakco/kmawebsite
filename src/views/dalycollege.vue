@@ -13,16 +13,7 @@
 					{{ this.fields.name }}
 				</h1>
 				<p>
-					Lorem Ipsum is simply dummy text of the printing and
-					typesetting industry. Lorem Ipsum has been the industry's
-					standard dummy text ever since the 1500s, when an unknown
-					printer took a galley of type and scrambled it to make a
-					type specimen book. It has survived not only five centuries,
-					but also the leap into electronic typesetting, remaining
-					essentially unchanged. It was popularised in the 1960s with
-					the release of Letraset sheets containing Lorem Ipsum
-					passages, and more recently with desktop publishing software
-					like Aldus PageMaker including versions of Lorem Ipsum.
+					The Daly College in Indore is a 125 year old residential school set in an 120 acre campus. Designed by Sir Swinton Jacob in the Indo Saracenic style the marble main building and the older brick boarding houses display the typical Indianized elements like chhatris, domes, arches & decorative bands and cornices to otherwise formally laid out plans & massing more evocative of formal European sensibilities.
 				</p>
 			</div>
 			<div class="imgholder" v-for="index in fields.projects">

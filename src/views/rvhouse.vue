@@ -13,16 +13,7 @@
 					{{ this.fields.name }}
 				</h1>
 				<p>
-					Lorem Ipsum is simply dummy text of the printing and
-					typesetting industry. Lorem Ipsum has been the industry's
-					standard dummy text ever since the 1500s, when an unknown
-					printer took a galley of type and scrambled it to make a
-					type specimen book. It has survived not only five centuries,
-					but also the leap into electronic typesetting, remaining
-					essentially unchanged. It was popularised in the 1960s with
-					the release of Letraset sheets containing Lorem Ipsum
-					passages, and more recently with desktop publishing software
-					like Aldus PageMaker including versions of Lorem Ipsum.
+					Situated on a 670 sq. m. plot in a quiet neighbourhood of Delhi, this residence attempts to offer an alternative to the builder driven trends in individual plot redevelopment- that of a high rise warren of often poorly lit & ventilated spaces in a bid to maximize returns - straining the city’s scarce resources and services as also changing the character of localities from open, low rise & verdant to overly built up and congested. This house offers a new paradigm, one which recognizes that such properties may be too large and too expensive to cater to a single family unit in the current context, but tries to preserve some of the important characteristics & pleasanter qualities of the older bungalow pattern.
 				</p>
 			</div>
 			<div class="imgholder" v-for="index in fields.projects">

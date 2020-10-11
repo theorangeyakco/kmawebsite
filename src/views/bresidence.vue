@@ -13,16 +13,7 @@
 					{{ this.fields.name }}
 				</h1>
 				<p>
-					Lorem Ipsum is simply dummy text of the printing and
-					typesetting industry. Lorem Ipsum has been the industry's
-					standard dummy text ever since the 1500s, when an unknown
-					printer took a galley of type and scrambled it to make a
-					type specimen book. It has survived not only five centuries,
-					but also the leap into electronic typesetting, remaining
-					essentially unchanged. It was popularised in the 1960s with
-					the release of Letraset sheets containing Lorem Ipsum
-					passages, and more recently with desktop publishing software
-					like Aldus PageMaker including versions of Lorem Ipsum.
+					Residence on 375 square yard plot for homeowner and one daughter. Two level residence with formal entertainment and daytime living spaces on ground floor and main and daughter's bedroom spaces opening onto a terrace/terrace garden on first floor. Guest bedroom provided on second floor along with a study room. 
 				</p>
 			</div>
 			<div class="imgholder" v-for="index in fields.projects">
