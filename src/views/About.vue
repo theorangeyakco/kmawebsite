@@ -118,7 +118,9 @@
 				<div id="email">
 					<h3>Email Address</h3>
 					<p>
-						office@kumarmoorthy.com<br />mk@kumarmoorthy.com<br />nm@kumarmoorthy.com<br />
+						<a href = "mailto: office@kumarmoorthy.com" target="_blank">
+							office@kumarmoorthy.com
+						</a>
 					</p>
 				</div>
 			</div>
@@ -167,6 +169,31 @@
 @font-face {
 	font-family: "AirbnbMedium";
 	src: url(../fonts/AirbnbCereal-Medium.ttf) format("truetype");
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+	color: black;
+  text-decoration: underline;
+
+}
+
+/* selected link */
+a:active {
+  color: black;
+  text-decoration: none;
 }
 
 .map {
