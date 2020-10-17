@@ -107,6 +107,13 @@
 						Delhi 110070, India<br />
 					</p>
 				</div>
+				<div id="phone">
+					<h3>Telephone</h3>
+					<p>
+						+011 41767501<br />+011 40044887<br />+011 40044888<br />
+						<br />
+					</p>
+				</div>
 				<div id="email">
 					<h3>Email Address</h3>
 					<p>
