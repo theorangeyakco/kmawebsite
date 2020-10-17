@@ -1,91 +1,12 @@
 <template>
 <div class="hello">
 <main class="grid">
-		<article>
-			<img
-				src="../assets/awards/1. J.K. ARCHITECT OF THE YEAR AWARDS  1995.jpg"
-				alt="Sample photo"
-			/>
-			<div class="text">
-				<h3>
-					1. CERTIFICATE OF MERIT, J.K. ARCHITECT OF THE YEAR AWARDS
-					1995
-				</h3>
-				<p>
-					in the category “Private Residences” for a residence in
-					Delhi.
-				</p>
-			</div>
-		</article>
-		<article>
-			<img
-				src="../assets/awards/2. J.K. ARCHITECT OF THE YEAR AWARDS 1997.jpg"
-				alt="Sample photo"
-			/>
-			<div class="text">
-				<h3>
-					2. COMMENDATION AWARD, J.K. ARCHITECT OF THE YEAR AWARDS
-					1997
-				</h3>
-				<p>
-					in the category “Private Residences” for a residence in
-					N.O.I.D.A.
-				</p>
-			</div>
-		</article>
-		<article>
-			<img
-				src="../assets/awards/3. 10TH IIID-MK AWARDS 2004.jpg"
-				alt="Sample photo"
-			/>
-			<div class="text">
-				<h3>
-					3. CERTIFICATE OF MERIT ( SPECIAL MENTION ) in 10TH IIID-MK
-					AWARDS 2004 (Institute of Indian Interior Designers)
-				</h3>
-				<p>
-					in the category “ Residential – Big” to Mallika Kumar for a
-					residence in Delhi.
-				</p>
-			</div>
-		</article>
-		<article>
-			<img
-				src="../assets/awards/4. 10TH IIID-MK AWARDS 2006.jpg"
-				alt="Sample photo"
-			/>
-			<div class="text">
-				<h3>
-					4. 1st RUNNER UP in 10TH IIID-MK AWARDS 2006 (Institute of
-					Indian Interior Designers)
-				</h3>
-				<p>
-					in the category “ Residential – Small” to Mallika Kumar for
-					a residence in Delhi.
-				</p>
-			</div>
-		</article>
-		<article>
-			<img
-				src="../assets/awards/5. Asia Pacific Award.jpg"
-				alt="Sample photo"
-			/>
-			<div class="text">
-				<h3>
-					5. BEST OFFICE ARCHITECTURE INDIA, ASIA PACIFIC PROPERTY
-					AWARDS ARCHITECTURE,
-				</h3>
-				<p>
-					in the category "Commercial", for a Corporate Office in
-					Gurgaon.
-				</p>
-			</div>
-		</article>
+
 		<article>
 			<img src="../assets/awards/6. IIA Award.jpg" alt="Sample photo" />
 			<div class="text">
 				<h3>
-					6. WINNER IIA NATIONAL AWARDS FOR EXCELLENCE IN ARCHITECTURE
+					WINNER IIA NATIONAL AWARDS FOR EXCELLENCE IN ARCHITECTURE
 					2018,
 				</h3>
 				<p>
@@ -94,17 +15,104 @@
 				</p>
 			</div>
 		</article>
+
+		<article>
+			<img
+				src="../assets/awards/5. Asia Pacific Award.jpg"
+				alt="Sample photo"
+			/>
+			<div class="text">
+				<h3>
+					BEST OFFICE ARCHITECTURE INDIA, ASIA PACIFIC PROPERTY
+					AWARDS ARCHITECTURE,
+				</h3>
+				<p>
+					in the category "Commercial", for a Corporate Office in
+					Gurgaon.
+				</p>
+			</div>
+		</article>
+
+		<article>
+			<img
+				src="../assets/awards/1. J.K. ARCHITECT OF THE YEAR AWARDS  1995.jpg"
+				alt="Sample photo"
+			/>
+			<div class="text">
+				<h3>
+					CERTIFICATE OF MERIT, J.K. ARCHITECT OF THE YEAR AWARDS
+					1995
+				</h3>
+				<p>
+					in the category “Private Residences” for a residence in
+					Delhi.
+				</p>
+			</div>
+		</article>
+
+		<article>
+			<img
+				src="../assets/awards/2. J.K. ARCHITECT OF THE YEAR AWARDS 1997.jpg"
+				alt="Sample photo"
+			/>
+			<div class="text">
+				<h3>
+					COMMENDATION AWARD, J.K. ARCHITECT OF THE YEAR AWARDS
+					1997
+				</h3>
+				<p>
+					in the category “Private Residences” for a residence in
+					N.O.I.D.A.
+				</p>
+			</div>
+		</article>
+
+		<article>
+			<img
+				src="../assets/awards/3. 10TH IIID-MK AWARDS 2004.jpg"
+				alt="Sample photo"
+			/>
+			<div class="text">
+				<h3>
+					CERTIFICATE OF MERIT ( SPECIAL MENTION ) in 10TH IIID-MK
+					AWARDS 2004 (Institute of Indian Interior Designers)
+				</h3>
+				<p>
+					in the category “ Residential – Big” to Mallika Kumar for a
+					residence in Delhi.
+				</p>
+			</div>
+		</article>
+
+		<article>
+			<img
+				src="../assets/awards/4. 10TH IIID-MK AWARDS 2006.jpg"
+				alt="Sample photo"
+			/>
+			<div class="text">
+				<h3>
+					1st RUNNER UP in 10TH IIID-MK AWARDS 2006 (Institute of
+					Indian Interior Designers)
+				</h3>
+				<p>
+					in the category “ Residential – Small” to Mallika Kumar for
+					a residence in Delhi.
+				</p>
+			</div>
+		</article>
+
 		<article>
 			<img src="../assets/awards/Best of Houzz .jpg" alt="Sample photo" />
 			<div class="text">
 				<h3>
-					7. WINNER OF HOUZZ,
+					WINNER OF HOUZZ,
 				</h3>
 				<p>
 					best of 2020, 2019, 2018, 2017, 2016
 				</p>
 			</div>
 		</article>
+
 		<article>
 			<img
 				src="../assets/awards/Best of Houzz 2020.jpg"
@@ -112,13 +120,14 @@
 			/>
 			<div class="text">
 				<h3>
-					8. WINNER OF HOUZZ
+					WINNER OF HOUZZ
 				</h3>
 				<p>
 					best of 2020 in the category design.
 				</p>
 			</div>
 		</article>
+
 	</main>
 	<div class="biblio">
 		<br><br>
