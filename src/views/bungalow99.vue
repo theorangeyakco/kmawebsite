@@ -13,16 +13,10 @@
 					{{ this.fields.name }}
 				</h1>
 				<p>
-					Lorem Ipsum is simply dummy text of the printing and
-					typesetting industry. Lorem Ipsum has been the industry's
-					standard dummy text ever since the 1500s, when an unknown
-					printer took a galley of type and scrambled it to make a
-					type specimen book. It has survived not only five centuries,
-					but also the leap into electronic typesetting, remaining
-					essentially unchanged. It was popularised in the 1960s with
-					the release of Letraset sheets containing Lorem Ipsum
-					passages, and more recently with desktop publishing software
-					like Aldus PageMaker including versions of Lorem Ipsum.
+					Originally designed as four airy spacious clean lined apartments with ample stilt parking and a common basement for rental to an embassy or international body , this building on a leafy corner plot in Delhi’s Defence Colony found its new avatar as the very successful small boutique hotel Bungalow 99.
+					Featured among other international publications in the Telegraph of UK, it’s rooms with furniture and decor by Pio Coffrant are a favourite home away from home for international designers , journalists , authors and others who find themselves in Delhi for extended periods of time for work related reasons ( people even have their favourite rooms which they pre book months in advance!).
+					Sliding screens along the front and West shade the interiors from Delhi’s hot westerly summer sun when needed but allow glimpses of the greenery surrounding the building. 
+					A simple palettes of materials used in the interior finishes allow pride of place to the green views through extensive openings all around while unusual materials enliven the bathrooms.
  
 
 				</p>

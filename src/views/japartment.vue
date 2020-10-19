@@ -13,16 +13,10 @@
 					{{ this.fields.name }}
 				</h1>
 				<p>
-					Lorem Ipsum is simply dummy text of the printing and
-					typesetting industry. Lorem Ipsum has been the industry's
-					standard dummy text ever since the 1500s, when an unknown
-					printer took a galley of type and scrambled it to make a
-					type specimen book. It has survived not only five centuries,
-					but also the leap into electronic typesetting, remaining
-					essentially unchanged. It was popularised in the 1960s with
-					the release of Letraset sheets containing Lorem Ipsum
-					passages, and more recently with desktop publishing software
-					like Aldus PageMaker including versions of Lorem Ipsum.
+					This large apartment in the very upscale Aralias apartment complex set in the DLF Golf Club in Gurgaon was gutted and completely redesigned for the owners family with his son and wife and small children. 
+					With a focus on creating an airy spacious home a simple tonality of materials veering towards shades of beige is offset by wood detailing and rich textures.
+					Multiple entertainment areas of the home are divided by sheer glass to ensure the visual continuity of the felt space and allow views through rooms to the lush golf greens.
+					Bedroom spaces are personalised with dashes of colour while keeping the look airy and clean. An expansive fitted kitchen is the pride of the lady of the house and often finds the whole family clustered around the island in the centre enjoying the latest of Granny’s culinary treats.
 				</p>
 			</div>
 			<div class="imgholder" v-for="index in fields.projects">

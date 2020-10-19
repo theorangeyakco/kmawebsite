@@ -13,16 +13,9 @@
 					{{ this.fields.name }}
 				</h1>
 				<p>
-					Lorem Ipsum is simply dummy text of the printing and
-					typesetting industry. Lorem Ipsum has been the industry's
-					standard dummy text ever since the 1500s, when an unknown
-					printer took a galley of type and scrambled it to make a
-					type specimen book. It has survived not only five centuries,
-					but also the leap into electronic typesetting, remaining
-					essentially unchanged. It was popularised in the 1960s with
-					the release of Letraset sheets containing Lorem Ipsum
-					passages, and more recently with desktop publishing software
-					like Aldus PageMaker including versions of Lorem Ipsum.
+					This sprawling home on a 2.5 acre farm in South Delhi’s farm belt has been designed for the family of dear old friends . 
+					As a house designed to be occupied through the year by the couple , an old parent each and their two nearly adult children, it combines multiple bedrooms in separate wings , each with it’s own sitting spaces , a multiplicity of entertainment areas for simultaneous use by various generations as well as generous verandas all around as sit outs and shading spaces. 
+					Courtyards scattered with the couple’s collection of antiques, a swimming pool , a private temple in the garden, a small home office annexe and ample staff quarters for the maintenance of this large property complete the ensemble , while a low slung profile and earthy finishes in natural materials reflect the owners desire for a quiet unassuming but richly experiential setting for their everyday lives.
 				</p>
 			</div>
 			<div class="imgholder" v-for="index in fields.projects">
