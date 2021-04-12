@@ -13,10 +13,37 @@
 					{{ this.fields.name }}
 				</h1>
 				<p>
-					Endless lush vistas, outward looking spaces and an earthy materiality infuse this farmhouse with comfort & endless charm.The clients, very old and dear friends, approached us with a simple brief – they wanted a weekend retreat which could become their permanent home in later years. A home that had enough spaces for entertainment with endless outdoor views and corners for privacy, ideal for multi-generational living- all for the use of a family intimately known to us.
+					The challenge in this house, designed for occupation and use
+					by a three to four generation family, was thus to ensure
+					each of the occupants had their own privacy and spaces while
+					being a home for the whole family.
+					<br />
+					The common living and entertainment and owners spaces being
+					on the right on the double plot, the sons’ smaller semi
+					independent units with independent entrances on the left & a
+					central spine with the grandparents/ potential children’s
+					rooms.
+					<br />
+					A central atrium overlooked by all the living spaces of the
+					house forms a unifying core like an enclosed extension of
+					the generous front garden.
+					<br />
+					Most rooms open out into exterior garden spaces through wide
+					/ corner doors via decks and balconies; rooms in the rear &
+					bathrooms overlook landscaped courts making green areas part
+					of the experience of most spaces.
+					<br />
+					Exterior form in Corten steel, white brick, some wood and
+					grey allows the greenery to form a dominant part of the
+					exterior ; the interiors in greys offset by wood detailing
+					and white surfaces.
 				</p>
 			</div>
-			<div class="imgholder" v-for="index in fields.projects">
+			<div
+				class="imgholder"
+				v-for="index in fields.projects"
+				:key="index"
+			>
 				<a :href="index.url" target="_blank">
 					<img class="img" :src="index.url" alt="" />
 				</a>
