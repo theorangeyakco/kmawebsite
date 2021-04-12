@@ -13,7 +13,22 @@
 					{{ this.fields.name }}
 				</h1>
 				<p>
-					Residence on 375 square yard plot for homeowner and one daughter. Two level residence with formal entertainment and daytime living spaces on ground floor and main and daughter's bedroom spaces opening onto a terrace/terrace garden on first floor. Guest bedroom provided on second floor along with a study room. 
+					A weekend getaway overlooking the fairways of the Jaypee
+					Greens golf course in Greater Noida, the brief for this
+					house involved making it as informal and casual as possible-
+					as far removed from the owner family's more urban and
+					structured home in Noida, not far away. While no changes
+					were possible to the extrior of the villa which is one among
+					many identical ones on large 800 sq.yard plots, the internal
+					spaces were extensively remodelled to open them up to each
+					other.
+					<br />
+					An atrium with a small lily pool and the internal stairs
+					forms the core of the house with largely glazed openings
+					into the surrounding spaces enabling views of the golf
+					course.Funky mismatched furniture, bright colours and
+					elements like hand painted doors lend a lively and casual
+					weekend air.
 				</p>
 			</div>
 			<div class="imgholder" v-for="index in fields.projects">
