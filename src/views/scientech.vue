@@ -13,13 +13,13 @@
 					{{ this.fields.name }}
 				</h1>
 				<p>
-					The Scientech corporate office & factory was designed for a
-					rapidly growing company in the business of manufacturing
-					electronic equipment on a half acre plot in the Electronics
-					Complex Estate in the West of Indore. While the
+					The Scientech corporate office and factory is built on a
+					half acre plot in the Electronics Complex Estate in the West
+					of Indore. Designed for a rapidly growing company in the
+					business of manufacturing electronic equipment, while the
 					approximately 22,000 sq. ft facility is designed according
-					to the principles of Vaastu, the limitations of which
-					provided form giving directions to the design, an amplitude
+					to the principles of Vaastu - the limitations of which
+					provided form giving directions to the design - an amplitude
 					of natural light, ventilation, and views of surrounding
 					greenery, ensure a workplace focussed on occupant wellness.
 				</p>

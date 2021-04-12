@@ -13,16 +13,14 @@
 					{{ this.fields.name }}
 				</h1>
 				<p>
-					Lorem Ipsum is simply dummy text of the printing and
-					typesetting industry. Lorem Ipsum has been the industry's
-					standard dummy text ever since the 1500s, when an unknown
-					printer took a galley of type and scrambled it to make a
-					type specimen book. It has survived not only five centuries,
-					but also the leap into electronic typesetting, remaining
-					essentially unchanged. It was popularised in the 1960s with
-					the release of Letraset sheets containing Lorem Ipsum
-					passages, and more recently with desktop publishing software
-					like Aldus PageMaker including versions of Lorem Ipsum.
+					Located on a 325 sq.yd. corner plot in South Delhi, this
+					house replaces an older family home on the same plot. The
+					clients were quite clear that they did not want to develop
+					the property into apartments as prevalent in Delhi now but
+					wanted to rebuild it as 2 spacious duplexes, one for the
+					parents on the ground & 1st floors, the other for the son
+					and his family on 2nd & 3rd floors. The basement was planned
+					a a common entertainment, storage & home office space.
 				</p>
 			</div>
 			<div

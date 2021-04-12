@@ -14,17 +14,17 @@
 				</h1>
 				<p>
 					This house, for 2 generations of a busy lawyer family,
-					maximises its three side open corner location with parking
+					utilises its three side open corner location with parking
 					tucked away in the rear enabling a generous wrap around
 					garden in the front. Entered through a small pedestrian
 					gate, the front garden provides a screened spillover space
 					for the living spaces of the house while an internal atrium
 					brings light and greenery into the heart of the house and
-					connecting living spaces on various floors into a whole.
-					Large glazed openings and the presence of bath courts ensure
-					one is never far from green views, while sliding wooden
-					slatted screens ensure a modicum of privacy and shade to
-					internal spaces when desired.
+					connects living spaces on various floors into a whole. Large
+					glazed openings and the presence of bath courts ensure one
+					is never far from green views, while sliding wooden slatted
+					screens ensure a modicum of privacy and shade to internal
+					spaces when desired.
 				</p>
 			</div>
 			<div class="imgholder" v-for="index in fields.projects">

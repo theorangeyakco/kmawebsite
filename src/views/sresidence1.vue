@@ -13,7 +13,19 @@
 					{{ this.fields.name }}
 				</h1>
 				<p>
-					Located on a 325 sq.yd. corner plot in South Delhi, this house replaces an older family home on the same plot. The clients were quite clear that they did not want to develop the property into apartments as prevalent in Delhi now but wanted to rebuild it  as 2 spacious duplexes, one for the parents on the ground & 1st floors, the other for the son and his family on 2nd & 3rd floors. The basement was planned a a common entertainment, storage & home office space.
+					Built on a 500 sq.yard plot in the leafy quiet locality of
+					Sector 17 in Gurgaon, this suburban residence sets out to
+					provide an oasis of repose and tranquillity for its
+					occupants- far removed from the hustle of the city while
+					being in it. Screened from external views by a lush garden,
+					the house is formed by its open spaces, gardens and
+					courtyards, which form a backdrop to the occupant couple's
+					quiet lifestyle. Open interlocking volumes of internal space
+					flow into each other- with flexible partitioning systems
+					providing for occasional separation for effective cooling/
+					heating or privacy. The low quiet form and simple finishes
+					allow for an earthy mellow mood while a play of scales,
+					volumes and levels enliven the interior.
 				</p>
 			</div>
 			<div class="imgholder" v-for="index in fields.projects">
