@@ -13,10 +13,20 @@
 					{{ this.fields.name }}
 				</h1>
 				<p>
-					This large apartment in the very upscale Aralias apartment complex set in the DLF Golf Club in Gurgaon was gutted and completely redesigned for the owners family with his son and wife and small children. 
-					With a focus on creating an airy spacious home a simple tonality of materials veering towards shades of beige is offset by wood detailing and rich textures.
-					Multiple entertainment areas of the home are divided by sheer glass to ensure the visual continuity of the felt space and allow views through rooms to the lush golf greens.
-					Bedroom spaces are personalised with dashes of colour while keeping the look airy and clean. An expansive fitted kitchen is the pride of the lady of the house and often finds the whole family clustered around the island in the centre enjoying the latest of Granny’s culinary treats.
+					This large apartment in the very upscale Aralias apartment
+					complex in the DLF Golf Club in Gurgaon was gutted and
+					completely redesigned for the owners' family with his son
+					and wife and small children. With a focus on creating an
+					airy spacious home, a simple tonality of materials veering
+					towards shades of beige is offset by wood detailing and rich
+					textures. Multiple entertainment areas of the home are
+					divided by sheer glass to ensure the visual continuity of
+					the felt space and allow views through rooms to the lush
+					golf greens. Bedroom spaces are personalised with dashes of
+					colour while keeping the look airy and clean. An expansive
+					fitted kitchen is the pride of the lady of the house and
+					often finds the whole family clustered around the island in
+					the centre enjoying the latest of Granny’s culinary treats.
 				</p>
 			</div>
 			<div class="imgholder" v-for="index in fields.projects">

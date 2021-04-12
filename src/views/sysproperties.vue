@@ -13,16 +13,16 @@
 					{{ this.fields.name }}
 				</h1>
 				<p>
-					Lorem Ipsum is simply dummy text of the printing and
-					typesetting industry. Lorem Ipsum has been the industry's
-					standard dummy text ever since the 1500s, when an unknown
-					printer took a galley of type and scrambled it to make a
-					type specimen book. It has survived not only five centuries,
-					but also the leap into electronic typesetting, remaining
-					essentially unchanged. It was popularised in the 1960s with
-					the release of Letraset sheets containing Lorem Ipsum
-					passages, and more recently with desktop publishing software
-					like Aldus PageMaker including versions of Lorem Ipsum.
+					This project features an office for a realty and
+					construction company in the front of the ground floor and
+					part of the basement while the rest of the building is
+					occupied by a set of short stay service apartments for
+					business visitors to the commercial hub of Gurgaon. Both
+					entities have their own entrances at ground level. A central
+					glass enclosed atrium enables visual connectivity betweeb
+					the two levels of the office while larged glazed openings
+					overlook a front garden and rear sunken court filling the
+					workspaces with light & views of greenery.
 				</p>
 			</div>
 			<div class="imgholder" v-for="index in fields.projects">
