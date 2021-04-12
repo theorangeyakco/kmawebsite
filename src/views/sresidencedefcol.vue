@@ -25,7 +25,11 @@
 					like Aldus PageMaker including versions of Lorem Ipsum.
 				</p>
 			</div>
-			<div class="imgholder" v-for="index in fields.projects">
+			<div
+				class="imgholder"
+				v-for="index in fields.projects"
+				:key="index"
+			>
 				<a :href="index.url" target="_blank">
 					<img class="img" :src="index.url" alt="" />
 				</a>

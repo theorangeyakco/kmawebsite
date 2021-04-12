@@ -13,13 +13,12 @@
 					{{ this.fields.name }}
 				</h1>
 				<p>
-					Located in picturesque rural Tijara , a couple of hours away
-					from Delhi in Rajasthan, this house built for a family
-					passionate about their vocation of organic vegetable
-					farming, combines local materials and a simple aesthetic to
-					meld into its landscape , exploiting views of and
-					connections to open spaces with an easy legible and open
-					layout.
+					Located in picturesque rural Tijara, a couple of hours away
+					from Delhi in Rajasthan, this house - built for a family
+					passionate about their vocation of organic vegetable farming
+					- combines local materials and a simple aesthetic to meld
+					into its landscape, exploiting views of and connections to
+					open spaces with an easy legible and open layout.
 				</p>
 			</div>
 

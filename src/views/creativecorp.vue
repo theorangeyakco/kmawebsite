@@ -13,14 +13,15 @@
 					{{ this.fields.name }}
 				</h1>
 				<p>
-					This 50,000 Sq foot office for a dynamic, youthful and
-					vibrant travel company catering to a bespoke clientele , won
-					out firm multiple national and international awards in 2019. A remarkably successful synergy between the clients and us
+					This 50,000 sq foot office for a dynamic youthful and
+					vibrant travel company catering to a bespoke clientele, won
+					our firm multiple national and international awards in 2019.
+					A remarkably successful synergy between the clients and us
 					resulted in a building that tries to ease itself into its
 					semi industrial and rapidly gentrifying office area with a
 					sharply dileneated yet quiet form that places precedence on
 					maximal wellness for all its occupants with ample natural
-					light and views of greenery . The building incorporates many
+					light and views of greenery. The building incorporates many
 					sustainable green features while edgy details make it as
 					vibrant as its occupant company.
 				</p>

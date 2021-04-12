@@ -13,7 +13,14 @@
 					{{ this.fields.name }}
 				</h1>
 				<p>
-					Design around a multiplicity of lushly planted courtyards, the differing treatment of each courtyard helping to imbue the progression through the house with different experiences at each pause. The clients did not want to sacrifice spaciousness given their choice of locating to a country home thus the use of inexpensive materials & minimization of use of expensive materials like hardwood where necessary in order to cut costs. 
+					Designed around a multiplicity of lushly planted courtyards,
+					the differing treatment of each courtyard helps to imbue the
+					progression through the house with different experiences at
+					each pause. While driven by a budget, the clients did not
+					want to sacrifice spaciousness - their rationale of locating
+					to a country home. Novel detailing with the use of
+					inexpensive materials, and a minimization of the use of
+					expensive elements like hardwood were employed to cut costs.
 				</p>
 			</div>
 			<div class="imgholder" v-for="index in fields.projects">
