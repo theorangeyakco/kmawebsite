@@ -12,12 +12,15 @@
 				<h1>
 					{{ name }}
 				</h1>
-				<p>
-					{{ description }}
-				</p>
+				<div v-for="d in description" :key="d">
+					<p>
+						{{ d }}
+						<br />
+						<br />
+					</p>
+				</div>
 			</div>
 			<div class="imgholder" v-for="index in projects" :key="index">
-				{{ index }}
 				<a :href="index" target="_blank">
 					<img class="img" :src="index" alt="" />
 				</a>
@@ -39,7 +42,7 @@ export default {
 			fields: {
 				projects: [],
 				name: "",
-				description: "",
+				description: [],
 			},
 		};
 	},
@@ -50,9 +53,10 @@ export default {
 				"project",
 				this.slug
 			);
+
+			console.log(data);
 			// console.log(data);
 			this.name = data.data.title[0].text;
-			console.log(this.name);
 
 			let arr = [];
 			for (let i = 0; i < Object.keys(data).length; i++) {
@@ -61,17 +65,18 @@ export default {
 				}
 			}
 
-			this.description = data.data.description[0].text;
+			let oof = [];
+			for (let i = 0; i < data.data.description.length; i++) {
+				oof.push(data.data.description[i].text);
+			}
+
+			this.description = oof;
 			this.projects = arr;
 
-			console.log(this.projects);
 			this.$forceUpdate();
 		},
 	},
 	mounted() {
-		this.getContent();
-	},
-	created() {
 		this.getContent();
 	},
 };
@@ -137,7 +142,6 @@ a:hover {
 
 .img {
 	position: relative;
-	top: -72px;
 	height: 20.5rem;
 	width: 100%;
 	/* min-width: 21.5rem; */
