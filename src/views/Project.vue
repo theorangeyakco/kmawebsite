@@ -7,29 +7,19 @@
 
 			<!-- TODO: FIGURE THIS OUT -->
 			<div id="panel">
-				<router-link to="/">< Go back</router-link>
+				<router-link to="/">Go back</router-link>
 
 				<h1>
-					{{ this.fields.name }}
+					{{ name }}
 				</h1>
 				<p>
-					This house, for 2 generations of a busy lawyer family,
-					utilises its three side open corner location with parking
-					tucked away in the rear enabling a generous wrap around
-					garden in the front. Entered through a small pedestrian
-					gate, the front garden provides a screened spillover space
-					for the living spaces of the house while an internal atrium
-					brings light and greenery into the heart of the house and
-					connects living spaces on various floors into a whole. Large
-					glazed openings and the presence of bath courts ensure one
-					is never far from green views, while sliding wooden slatted
-					screens ensure a modicum of privacy and shade to internal
-					spaces when desired.
+					{{ description }}
 				</p>
 			</div>
-			<div class="imgholder" v-for="index in fields.projects">
-				<a :href="index.url" target="_blank">
-					<img class="img" :src="index.url" alt="" />
+			<div class="imgholder" v-for="index in projects" :key="index">
+				{{ index }}
+				<a :href="index" target="_blank">
+					<img class="img" :src="index" alt="" />
 				</a>
 			</div>
 		</div>
@@ -39,34 +29,47 @@
 <script>
 export default {
 	Name: "HomeGrid",
+	props: {
+		slug: {
+			type: String,
+		},
+	},
 	data() {
 		return {
 			fields: {
 				projects: [],
-				name: [],
+				name: "",
+				description: "",
 			},
 		};
 	},
 	methods: {
 		// This is an example query, the important part is above.
-		getContent() {
-			this.$prismic.client
-				.query(this.$prismic.Predicates.at("document.type", "project"))
-				.then((document) => {
-					let array = [];
-					var size = Object.keys(document.results[2].data).length;
-					for (let i = 0; i < size; i++) {
-						array.push(Object.values(document.results[2].data)[i]);
-					}
+		async getContent() {
+			let data = await this.$prismic.client.getByUID(
+				"project",
+				this.slug
+			);
+			// console.log(data);
+			this.name = data.data.title[0].text;
+			console.log(this.name);
 
-					array.shift();
-					array.shift();
+			let arr = [];
+			for (let i = 0; i < Object.keys(data).length; i++) {
+				if (Object.values(data.data)[i].url !== undefined) {
+					arr.push(Object.values(data.data)[i].url);
+				}
+			}
 
-					this.fields.projects = array;
-					console.log(this.fields.projects);
-					this.fields.name = document.results[2].data.title[0].text;
-				});
+			this.description = data.data.description[0].text;
+			this.projects = arr;
+
+			console.log(this.projects);
+			this.$forceUpdate();
 		},
+	},
+	mounted() {
+		this.getContent();
 	},
 	created() {
 		this.getContent();
@@ -133,6 +136,8 @@ a:hover {
 }
 
 .img {
+	position: relative;
+	top: -72px;
 	height: 20.5rem;
 	width: 100%;
 	/* min-width: 21.5rem; */
