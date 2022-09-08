@@ -1,19 +1,9 @@
-# kmawebsite
+# kumarmoorthy.com
 
-## Project setup
-```
-npm install
-```
+Website for an architecture firm in New Delhi.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Made in Vue.js, using Prismic for some dynamic data.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+[Website](https://kumarmoorthy.com)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+_Please note: ony use this template with Vue 2 as Prismic's support for Vue 3 is incredibly unstabale at the moment. GraphCMS is a preferable alternative._
